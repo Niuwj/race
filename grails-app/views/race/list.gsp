@@ -17,6 +17,9 @@
 		</div>
 		<div id="list-race" class="content scaffold-list" role="main">
 			<h1><g:message code="default.list.label" args="[entityName]" /></h1>
+            <span class="menuButton">
+            <g:link action="search">Search for races</g:link>
+            </span>
 			<g:if test="${flash.message}">
 			<div class="message" role="status">${flash.message}</div>
 			</g:if>

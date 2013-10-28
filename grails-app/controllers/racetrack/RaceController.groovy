@@ -99,4 +99,9 @@ class RaceController {
             redirect(action: "show", id: id)
         }
     }
+    def search={
+        /*if(request.method == 'POST'){
+            render(view:'list',model:[raceList: Race.findAllByCityLike('%'+params.city+'%')])
+        }*/
+    }
 }
